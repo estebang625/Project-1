@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+body {
+    background-color: #F5F5F5;
+}
+
+header {
+    background-color: #FF5851;
+    padding: 10px;
+    min-width: 320px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+}
+
+header .intro{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 36px;
+    text-align: center;
+}
+
+#down {
+    position: absolute;
+    align-self: flex-end;
+    padding-left: 180px;
+    color: white;
+}
+
+.job {
+    color: white;
+    font-size: 32px;
+}
+
+.about {
+    min-height: 460px;
+    padding: 20px;
+}
+
+.about h2 {
+    text-decoration: underline;
+    color: #434649;
+    text-align: left;
+}
+
+.about p {
+    color: #434649;
+}
+
+.about .pic {
+    text-align: center;
+}
+
+.about .pic img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+    padding-right: 40px;
+}
+
+.pro {
+    font-size: 36px;
+}
+
+.carousel {
+    padding: 20px;
+}
+
+.carousel-item img {
+   width: 100%;
+   height: auto;
+}
+
+.carousel h2 {
+    text-align: left;
+    text-decoration: underline;
+    color: #434649;
+}
+
+.carousel-inner {
+    color: black;
+}
+
+.contact {
+    background-color: #343B3F;
+    color: white;
+    min-height: 450px;
+}
+
+.contact a {
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+@media only screen and (min-width:768px) {
+    header {
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    }
+    header .intro {
+        font-size: 48px;
+    }
+    #down {
+        text-align: center;
+        padding-left: 0px;
+    }
+    .job {
+        font-size: 42px;
+    }
+    .about {
+        min-height: 600px;
+    }
+    .about h2 {
+        font-size: 36px;
+    }
+    .about p {
+        font-size: 20px;
+    }
+    .about ul {
+        font-size: 22px;
+    }
+    .about .pic img {
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+    }
+    .contact {
+        background-color: #343B3F;
+        color: white;
+        min-height: 400px;
+    }
+    .contact h1 {
+        font-size: 36px;
+        text-align: left;
+    }   
+    .contact a {
+        text-align: center;
+        padding: 30px;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    body {
+    text-align: center;
+    }
+    header {
+        min-height: 840px;
+        display: flex;
+        justify-content: center;
+        }
+    header .intro{
+        font-size: 64px;
+    }
+    #down {
+        text-align: center;
+        padding-left: 0px;
+    }
+    .job {
+        font-size: 56px;
+    }
+    .about {
+        min-height: 850px;
+    }
+    .about h2 {
+        font-size: 36px;
+    }
+    .about .pic img {
+        border-radius: 50%;
+        width: 350px;
+        height: 350px;
+    }
+    .about p {
+        font-size: 28px;
+        color: #434649;
+    }
+    .about ul {
+        font-size: 28px;
+    }
+    .carousel h2 {
+        font-size: 48px;
+    }
+    .contact {
+        background-color: #343B3F;
+        color: white;
+        min-height: 780px;
+    }
+    .contact h1 {
+        font-size: 48px;
+        text-align: left;
+}
+    .contact p {
+        font-size: 32px;
+    }
+    .contact a {
+        text-align: center;
+        padding: 40px;
+    }
+}

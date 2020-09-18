@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <h3 class="intro"> HELLO I AM <span class="name">ESTEBAN GONZALEZ</span>  <br> <span class="job">FULL-STACK <br>WEB DEVELOPER</span></h2>
+        
+        <a id="down" href="#home"><i class="fas fa-chevron-down fa-3x"></i></a>
+    </header>
+
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+        <a class="navbar-brand" id="home" href="#">HOME</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#me">ABOUT ME<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#carouselExampleCaptions">PROJECTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contactme">CONTACT ME</a>
+            </li>
+            
+            
+          </ul>
+        </div>
+      </nav>
+    <div class="about">
+        <h2 id="me">About Me:</h2>
+        <div class="pic"><img src="https://i.imgur.com/JtWmnrR.jpg"></div>
+            <p>I am a strong minded individual and am a firm believer in doing what you love to do. 
+                I love coding, learning and being challenged day to day, it brings me motivation to solve the problem 
+                and bring the project alive for others to enjoy and use.
+            </p>
+        <ul> 
+            <li>Languages:</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>jquery</li>
+        </ul>
+    </div>
+
+    
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+      <div>
+        <h2 class="pro">Projects:</h2>
+      </div>
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
+
+        <div class="carousel-item active" id="c1">
+          <img src="https://res.cloudinary.com/dczjejcpv/image/upload/v1600446128/Screen_Shot_2020-09-18_at_9.20.41_AM_yyfplr.png" class="d-block w-100" alt="Responsive image">
+          <div class="carousel-caption d-none d-md-block">
+            <h5><mark>Formatting</mark></h5>
+            <p><mark>CSS grids</mark</p><br>
+            <a href="https://pages.git.generalassemb.ly/estebang625/css-grid-lab-layouts/">click me</a>
+          </div>
+        </div>
+
+         
+
+        
+      </div>
+      </body>
+
+      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+
+    <div class="contact">
+        <h1 id="contactme">Contact Me:</h1>
+        <div id="links">
+        <ul>
+          <a class ="mail" href = "mailto:estebang7511@gmail.com?subject = Feedback&body = Message"><i class="far fa-envelope fa-3x"></i></a>
+          <a class ="insta" href="https://www.instagram.com/_este_bang_/?hl=en"><i class="fab fa-instagram fa-3x"></i></a>
+          <a class ="linkedin" href="https://www.linkedin.com/in/esteban-gonzalez-23b7521b7/"><i class="fab fa-linkedin fa-3x"></i></a>
+        </ul>
+        </div>
+    </div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+<script src="app.js"></script>
+</html>
+
